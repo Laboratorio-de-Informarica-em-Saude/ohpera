@@ -21,8 +21,8 @@ boundaries = [
 # loop over the boundaries
 for (lower, upper) in boundaries:
 	# create NumPy arrays from the boundaries
-	lower = np.array(lower, dtype = "uint8")
-	upper = np.array(upper, dtype = "uint8")
+	lower = np.array(lower)
+	upper = np.array(upper)
 
 	# find the colors within the specified boundaries and apply
 	# the mask
